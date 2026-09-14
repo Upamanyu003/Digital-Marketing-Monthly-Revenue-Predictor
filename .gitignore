@@ -1,0 +1,10 @@
+# Python build and cache files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Local review/export material
+tmp/
+Screenshot*.png

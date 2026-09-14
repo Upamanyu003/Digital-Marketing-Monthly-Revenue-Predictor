@@ -1,0 +1,81 @@
+{
+  "identifier_excluded": "Campaign_ID",
+  "target_excluded": "Monthly_Revenue_Generated",
+  "feature_names": [
+    "Campaign_Channel",
+    "Target_Segment",
+    "Ad_Spend",
+    "Impressions",
+    "Clicks",
+    "Conversion_Rate",
+    "Average_Order_Value",
+    "Campaign_Duration_Days",
+    "Email_Open_Rate"
+  ],
+  "categorical_features": {
+    "Campaign_Channel": {
+      "values": [
+        "Affiliate",
+        "Display",
+        "Email",
+        "Search",
+        "Social Media"
+      ],
+      "dtype": "string"
+    },
+    "Target_Segment": {
+      "values": [
+        "Existing Customers",
+        "High Value",
+        "New Customers",
+        "Price Sensitive",
+        "Small Business"
+      ],
+      "dtype": "string"
+    }
+  },
+  "numeric_features": {
+    "Ad_Spend": {
+      "minimum": 16038.29,
+      "maximum": 492697.19,
+      "median": 228416.925,
+      "dtype": "float"
+    },
+    "Impressions": {
+      "minimum": 22973,
+      "maximum": 2000000,
+      "median": 559735,
+      "dtype": "integer"
+    },
+    "Clicks": {
+      "minimum": 425,
+      "maximum": 128297,
+      "median": 13028,
+      "dtype": "integer"
+    },
+    "Conversion_Rate": {
+      "minimum": 0.5,
+      "maximum": 13.55,
+      "median": 4.63,
+      "dtype": "float"
+    },
+    "Average_Order_Value": {
+      "minimum": 801.04,
+      "maximum": 10000.0,
+      "median": 3427.585,
+      "dtype": "float"
+    },
+    "Campaign_Duration_Days": {
+      "minimum": 7,
+      "maximum": 90,
+      "median": 50,
+      "dtype": "integer"
+    },
+    "Email_Open_Rate": {
+      "minimum": 5.82,
+      "maximum": 65.0,
+      "median": 32.25,
+      "dtype": "float"
+    }
+  }
+}
